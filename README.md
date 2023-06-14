@@ -6,7 +6,7 @@ _DKT: Diverse Knowledge Transfer Transformer for Class Incremental Learning_
 
 GitHub maintainer: Xinyuan Gao 
 
-##Requirement
+## Requirement
 
 We use the 
 python == 3.9
