@@ -36,11 +36,11 @@ You can use the following command to run the code like the Dytox: \
 
 If any parts of our paper and code help your research, please consider citing us and giving a star to our repository.
 
-`<@InProceedings{Gao_2023_CVPR, \\
-    author    = {Gao, Xinyuan and He, Yuhang and Dong, Songlin and Cheng, Jie and Wei, Xing and Gong, Yihong}, \\
-    title     = {DKT: Diverse Knowledge Transfer Transformer for Class Incremental Learning}, \\
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, \\
-    month     = {June}, \\
-    year      = {2023}, \\
-    pages     = {24236-24245} \\
+`<@InProceedings{Gao_2023_CVPR, \
+    author    = {Gao, Xinyuan and He, Yuhang and Dong, Songlin and Cheng, Jie and Wei, Xing and Gong, Yihong}, \
+    title     = {DKT: Diverse Knowledge Transfer Transformer for Class Incremental Learning}, \
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, \
+    month     = {June}, \
+    year      = {2023}, \
+    pages     = {24236-24245} \
 }>` 
