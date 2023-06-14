@@ -25,14 +25,16 @@ Also, a part of our code is inspired by the [CSCCT](https://github.com/ashok-arj
 ## Trainer
 
 You can use the following command to run the code like the Dytox: 
-` ` `
-<bash train.sh 0,1 \
+
+```bash
+bash train.sh 0,1 
     --options options/data/cifar100_10-10.yaml options/data/cifar100_order1.yaml options/model/cifar_DKT.yaml \
-    --name DKT \
-    --data-path MY_PATH_TO_DATASET \
-    --output-basedir PATH_TO_SAVE_CHECKPOINTS \
-    --memory-size 2000>
-` ` `
+    --name DKT 
+    --data-path MY_PATH_TO_DATASET 
+    --output-basedir PATH_TO_SAVE_CHECKPOINTS 
+    --memory-size 2000
+```
+
 
 ## Citation
 
