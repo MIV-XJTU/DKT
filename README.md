@@ -8,12 +8,12 @@ GitHub maintainer: Xinyuan Gao
 
 ## Requirement
 
-We use the 
-python == 3.9
-torch == 1.11.0
-torchvision == 0.12.0
-timm == 0.5.4
-continuum == 1.2.3
+We use the \
+python == 3.9 \
+torch == 1.11.0 \
+torchvision == 0.12.0 \
+timm == 0.5.4 \
+continuum == 1.2.3 \
 GPUs == 4 * NVIDIA GeForce RTX 3090
 
 ## Acknowledgement
