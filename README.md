@@ -18,7 +18,7 @@ continuum == 1.2.3 \
 ## Accuracy
 We provide the accuracy of every phase in different settings in the following table. You can also get them in the logs(We run the official code again, it may be slightly different from the paper). \
 
-|             Variant             |       ARTrack-256       |       ARTrack-384       |      ARTrack-L-384      |
+|             CIFAR100 10—10   |       ARTrack-256       |       ARTrack-384       |      ARTrack-L-384      |
 |:-------------------------------:|:-----------------------:|:-----------------------:|:-----------------------:|
 |          Model Config           | ViT-B, 256^2 resolution | ViT-B, 384^2 resolution | ViT-L, 384^2 resolution |
 | GOT-10k (AO / SR 0.5 / SR 0.75) |   73.5 / 82.2 / 70.9    |   75.5 / 84.3 / 74.3    |   78.5 / 87.4 / 77.8    |
