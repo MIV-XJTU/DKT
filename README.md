@@ -14,7 +14,15 @@ torch == 1.11.0 \
 torchvision == 0.12.0 \
 timm == 0.5.4 \
 continuum == 1.2.3 \
-GPUs == 4 * NVIDIA GeForce RTX 3090
+
+## Accuracy
+We provide the accuracy of every phase in different settings. You can also get them in the logs.
+
+
+## Notice
+If you want to run our experiment on different numbers of GPUs, you should set the Batch_size * GPUs == 512. For example, one GPU, the Batch size 512 and two GPUs, the Batch size 256 (CIFAR-100 and ImageNet100). If you want to change it, please try to change the hyperparameters.
+
+
 
 ## Acknowledgement
 
