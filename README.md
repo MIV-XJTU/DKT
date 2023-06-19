@@ -48,6 +48,7 @@ For CIFAR-100, you can use a single GPU with bs 512 or two GPUs with bs 256. (Th
 For ImageNet-100, we use two GPUs with bs 256 \
 For ImageNet-1000, we use four GPUs with bs 256
 
+Due to the rush in organizing time, if you encounter any situation, please contact my email [gxy010317@stu.edu.cn]. Thanks
 
 
 ## Acknowledgement
