@@ -16,7 +16,7 @@ timm == 0.5.4 \
 continuum == 1.2.3 \
 
 ## Accuracy
-We provide the accuracy of every phase in different settings in the following table. You can also get them in the logs. (We run the official code again, it may be slightly different from the paper). \
+We provide the accuracy of every phase in different settings in the following table. You can also get them in the logs. (We run the official code again,it may be slightly different from the paper). \
 | CIFAR 20—20   |      1      |       2      |      3     |  4      | 5      |AVG      |
 |:-------------------------------:|:-----------------------:|:-----------------------:|:-----------------------:|:-----------------------:|:-----------------------:|:-----------------------:|
 |   %  | 88.3 | 80.2 | 76.92 | 71.95 | 67.17 | 76.91| 
