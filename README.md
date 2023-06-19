@@ -13,7 +13,7 @@ python == 3.9 \
 torch == 1.11.0 \
 torchvision == 0.12.0 \
 timm == 0.5.4 \
-continuum == 1.2.3 \
+continuum == 1.2.3 
 
 ## Accuracy
 We provide the accuracy of every phase in different settings in the following table. You can also get them in the logs. (We run the official code again, it may be slightly different from the paper). 
