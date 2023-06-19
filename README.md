@@ -42,7 +42,11 @@ We provide the accuracy of every phase in different settings in the following ta
 
 
 ## Notice
-If you want to run our experiment on different numbers of GPUs, you should set the Batch_size * GPUs == 512. For example, one GPU, the Batch size 512 and two GPUs, the Batch size 256 (CIFAR-100 and ImageNet100). If you want to change it, please try to change the hyperparameters.
+If you want to run our experiment on different numbers of GPUs, you should set the Batch_size * GPUs == 512. For example, one GPU, the Batch size 512 and two GPUs, the Batch size 256 (CIFAR-100 and ImageNet100). If you want to change it, please try to change the hyperparameters. \
+
+For CIFAR-100, you can use a single GPU with bs 512 or double GPUs with bs 256. (The accuracy is in the logs)\
+For ImageNet-100, we use two GPUs with bs 256 \
+For ImageNet-1000, we use four GPUs with bs 256
 
 
 
