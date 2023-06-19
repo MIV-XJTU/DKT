@@ -18,19 +18,19 @@ continuum == 1.2.3 \
 ## Accuracy
 We provide the accuracy of every phase in different settings in the following table. You can also get them in the logs(We run the official code again, it may be slightly different from the paper). \
 
-|             CIFAR100 10—10   |       ARTrack-256       |       ARTrack-384       |      ARTrack-L-384      |
-|:-------------------------------:|:-----------------------:|:-----------------------:|:-----------------------:|
-|          Model Config           | ViT-B, 256^2 resolution | ViT-B, 384^2 resolution | ViT-L, 384^2 resolution |
-| GOT-10k (AO / SR 0.5 / SR 0.75) |   73.5 / 82.2 / 70.9    |   75.5 / 84.3 / 74.3    |   78.5 / 87.4 / 77.8    |
-|    LaSOT (AUC / Norm P / P)     |   70.4 / 79.5 / 76.6    |   72.6 / 81.7 / 79.1    |   73.1 / 82.2 / 80.3    |
-| TrackingNet (AUC / Norm P / P)  |   84.2 / 88.7 / 83.5    |   85.1 / 89.1 / 84.8    |   85.6 / 89.6 / 84.8    |
-|  LaSOT_ext (AUC / Norm P / P)   |   46.4 / 56.5 / 52.3    |   51.9 / 62.0 / 58.5    |   52.8 / 62.9 / 59.7    |
-|          TNL-2K (AUC)           |          57.5           |          59.8           |          60.3           |
-|           NfS30 (AUC)           |          64.3           |          66.8           |          67.9           |
-|          UAV123 (AUC)           |          67.7           |          70.5           |          71.2           |
+| CIFAR100 10—10   |       ARTrack-256       |       ARTrack-384       |      ARTrack-L-384      |  ARTrack-L-384      |
+|:-------------------------------:|:-----------------------:|:-----------------------:|:-----------------------:|:-----------------------:|
+|          Model Config           | ViT-B, 256^2 resolution | ViT-B, 384^2 resolution | ViT-L, 384^2 resolution |ViT-L, 384^2 resolution |
+| GOT-10k (AO / SR 0.5 / SR 0.75) |   73.5 / 82.2 / 70.9    |   75.5 / 84.3 / 74.3    |   78.5 / 87.4 / 77.8    |78.5 / 87.4 / 77.8    |
+|    LaSOT (AUC / Norm P / P)     |   70.4 / 79.5 / 76.6    |   72.6 / 81.7 / 79.1    |   73.1 / 82.2 / 80.3    |73.1 / 82.2 / 80.3    |
+| TrackingNet (AUC / Norm P / P)  |   84.2 / 88.7 / 83.5    |   85.1 / 89.1 / 84.8    |   85.6 / 89.6 / 84.8    |85.6 / 89.6 / 84.8    |
+|  LaSOT_ext (AUC / Norm P / P)   |   46.4 / 56.5 / 52.3    |   51.9 / 62.0 / 58.5    |   52.8 / 62.9 / 59.7    |52.8 / 62.9 / 59.7    |
+|          TNL-2K (AUC)           |          57.5           |          59.8           |          60.3           |     60.3           |
+|           NfS30 (AUC)           |          64.3           |          66.8           |          67.9           |   67.9           |
+|          UAV123 (AUC)           |          67.7           |          70.5           |          71.2           | 71.2           |
 
 
-| CIFAR100 10—10  | 1 |  2 | 3 | 4 | 5 | 6  |7  |   8|  9  | 10  | AVG |
+|  CIFAR100 10—10  | 1 |  2 | 3 | 4 | 5 | 6  |7  |   8|  9  | 10  | AVG |
 |   %  | 94.2 | 86.95 | 83.0 | 77.53 | 74.12 | 74.05 | 74.12 | 74.05 | 70.53 | 67.9 | 65.12 | 63.45 | 75.69 |
 
 
