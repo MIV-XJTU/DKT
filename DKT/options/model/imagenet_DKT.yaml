@@ -1,0 +1,52 @@
+#######################
+# DKT, for ImageNet #
+#######################
+
+# Model definition
+model: RVTImage
+embed_dim: [32]
+depth: [5]
+num_heads: [12]
+patch_size: 16
+input_size: 224
+class_attention: true
+
+#batch_size: 64
+#incremental_batch_size: 64
+
+# Training setting
+no_amp: false
+eval_every: 50
+
+# Base hyperparameter
+weight_decay: 0.000001
+batch_size: 256
+incremental_batch_size: 256
+incremental_lr: 0.0005
+rehearsal: icarl_all
+
+# Knowledge Distillation
+auto_kd: true
+
+# Finetuning
+finetuning: balanced
+ft_no_sampling: true
+
+# DKT model
+DKT: true
+freeze_task: [old_task_tokens, old_heads]
+freeze_ft: [sab, task_tokens]
+
+
+# Duplex Classifiers
+duplex_clf: True
+bce_loss: true
+
+
+# Advanced Augmentations, here disabled
+
+## Erasing
+reprob: 0.0
+remode: pixel
+recount: 1
+resplit: false
